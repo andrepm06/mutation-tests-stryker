@@ -1,0 +1,21 @@
+{
+  "name": "mutation-tests",
+  "version": "1.0.0",
+  "description": "Mutation tests using Stryker",
+  "scripts": {
+    "test": "mocha ./test/.",
+    "coverage": "nyc mocha ./test/",
+    "mutations": "stryker run"
+  },
+  "author": "André Mendes",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^5.0.0",
+    "nyc": "^11.6.0",
+    "stryker": "^0.19.3",
+    "stryker-api": "0.13.0",
+    "stryker-html-reporter": "^0.12.1",
+    "stryker-mocha-framework": "^0.8.3",
+    "stryker-mocha-runner": "^0.10.5"
+  }
+}

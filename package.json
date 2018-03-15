@@ -5,7 +5,7 @@
   "scripts": {
     "test": "mocha ./test/.",
     "coverage": "nyc mocha ./test/",
-    "mutations": "stryker run"
+    "mutations": "./node_modules/.bin/stryker run"
   },
   "author": "André Mendes",
   "license": "ISC",
